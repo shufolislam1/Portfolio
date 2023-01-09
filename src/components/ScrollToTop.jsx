@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from "prop-types";
 import Fab from '@mui/material/Fab';
 import Zoom from '@mui/material/Zoom';
@@ -27,7 +27,7 @@ const ScrollToTop = (props) => {
     return (
         <Zoom in={trigger}>
             <div onClick={handleClick} role="presentation"  style={style}>
-                <Fab color="primary" size="small" aria-label="scroll back to top">
+                <Fab color="error" size="big" aria-label="scroll back to top">
                     <KeyboardArrowUpIcon />
                 </Fab>
             </div>
