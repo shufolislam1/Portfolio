@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
@@ -10,9 +11,8 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Home></Home>
-
       <Projects></Projects>
-
+      <Contact></Contact>
       <Footer></Footer>
       <ScrollToTop></ScrollToTop>
     </div>
