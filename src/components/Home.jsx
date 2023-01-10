@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     return (
-        <div className='mt-48'>
+        <div className='mt-48' id='home'>
             <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4'>
                 <div className='text-left ml-5'>
                     <h1 className='font-serif'> <span className='text-red-600'> Hi There !</span> I am a</h1>

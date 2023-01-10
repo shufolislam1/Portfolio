@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
             <h1 className='text-red-600 font-serif my-10'>Contact Me</h1>
             <div className='grid grid-cols-2 my-36'>
                 <div className='w-3/5'>

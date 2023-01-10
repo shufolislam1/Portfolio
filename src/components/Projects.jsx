@@ -8,7 +8,7 @@ import { Card } from "@nextui-org/react";
 
 const Projects = () => {
     return (
-        <div className='mt-48'>
+        <div className='mt-48' id='projects'>
             <h1 className='text-red-600 font-serif mb-20'>Projects</h1>
             <OwlCarousel className='owl-theme' nav margin={10} autoplay autoplayTimeout={2000} loop>
                 <div className='item'>

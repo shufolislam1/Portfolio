@@ -3,7 +3,7 @@ import { Card } from "@nextui-org/react";
 
 const Services = () => {
     return (
-        <div  className='mt-32'>
+        <div  className='mt-32' id='services'>
             <h1 className='text-red-600 font-serif mb-4'>Services</h1>
             <div className='grid grid-cols-3 gap-6 my-20'>
                 <Card isHoverable isPressable>
