@@ -2,11 +2,11 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='mt-48'>
+        <div className='mt-36'>
             <h1 className='text-red-600 font-serif mb-4'>About Me</h1>
             <div className='grid grid-cols-2 gap-4 ml-5 my-36'>
                 <div>
-                    <a href='https://svgshare.com/s/pQ6' ><img src='https://svgshare.com/i/pQ6.svg' title='' /></a>
+                    <img src='https://svgshare.com/i/pQ6.svg' title='' />
                 </div>
                 <div className='text-left ml-16'>
                 <h6 className='font-serif text-red-600 text-4xl'>Shufol Islam</h6>
