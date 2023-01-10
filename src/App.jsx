@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import ScrollToTop from './components/ScrollToTop'
+import Services from './components/Services'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <Projects></Projects>
+      <Services></Services>
       <About></About>
       <Contact></Contact>
       <Footer></Footer>
