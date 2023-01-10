@@ -6,7 +6,7 @@ const About = () => {
             <h1 className='text-red-600 font-serif mb-4'>About Me</h1>
             <div className='grid grid-cols-2 gap-4 ml-5 my-36'>
                 <div>
-                    <img src='https://gist.githubusercontent.com/shufolislam1/9ff5abe3dca953b61f219cf6cddfd5ef/raw/a5cb90bffa8d8d802b32e1653e55716c5274131e/about.svg' title='' />
+                    <img src='https://i.ibb.co/nfx1WrF/aboutme.gif' />
                 </div>
                 <div className='text-left ml-16'>
                 <h6 className='font-serif text-red-600 text-4xl'>Shufol Islam</h6>

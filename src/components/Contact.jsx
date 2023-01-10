@@ -28,7 +28,7 @@ const Contact = () => {
                     <LinkedInIcon></LinkedInIcon>
                     <p className='font-serif my-2 font-bold text-xl'><a href="https://www.linkedin.com/in/shufol-islam-441b0922b/">LinkedIn</a></p>
                 </div> */}
-                <img src='https://gist.githubusercontent.com/shufolislam1/9eede73698b2958f005ff92c2a4f5e5a/raw/14b9c275dd9994ba7438040f65707eb1739c5bcf/contact.svg' title='' />
+                <img src='https://i.ibb.co/zSvt03M/contact.gif' />
             </div>
         </div>
     );
