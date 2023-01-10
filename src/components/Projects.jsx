@@ -18,7 +18,7 @@ const Projects = () => {
                             <div className="hero-content text-center text-neutral-content">
                                 <div className="max-w-md">
                                     <h1 className="mb-5 text-5xl font-bold">Sawari Spark</h1>
-                                    <button className="btn">View Live</button>
+                                    <a target='_blank' href="https://sawari-spark-shufol.netlify.app/"><button className="btn"> View Live</button></a> 
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ const Projects = () => {
                             <div className="hero-content text-center text-neutral-content">
                                 <div className="max-w-md">
                                     <h1 className="mb-5 text-5xl font-bold">Party Center</h1>
-                                    <button className="btn">View Live</button>
+                                    <a target='_blank' href="https://awesome-galileo-7aef9e.netlify.app/"><button className="btn">View Live</button> </a> 
                                 </div>
                             </div>
                         </div>

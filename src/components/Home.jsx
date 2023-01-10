@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     return (
-        <div className='mt-48' id='home'>
+        <div className='mt-32' id='home'>
             <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4'>
                 <div className='text-left ml-5'>
                     <h1 className='font-serif'> <span className='text-red-600'> Hi There !</span> I am a</h1>
@@ -19,7 +19,7 @@ const Home = () => {
                     <p className='font-serif mt-4 text-left sm:text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, blanditiis veniam dignissimos laborum numquam quis, beatae dolore ullam reprehenderit distinctio illo eaque fugiat voluptatem. Illo mollitia doloremque accusamus eos aspernatur!</p>
                     <a target="_blank" href="https://docs.google.com/document/d/1NmeK2iP6URPDEDUYdyZg3AEA_lUzbRyzD25-noH6Qmw/edit?usp=sharing"><button className="btn font-serif mt-8"> Download Resume</button></a>
                 </div>
-                <div className='mt-6 lg:w-full sm:w-1/2'>
+                <div className='mt-6 lg:w-full sm:w-1/2 ml-10'>
                     <a><img src='https://i.ibb.co/KV1xF1m/juicy-man-programmer-writing-code-and-make-web-design-on-a-pc.gif'/></a>
                 </div>
             </div>

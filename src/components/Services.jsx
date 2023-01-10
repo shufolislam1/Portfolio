@@ -10,11 +10,8 @@ const Services = () => {
                 <div className="card lg:card-side shadow-xl ">
                     <figure><img src="https://i.ibb.co/Lpq7RdV/frontend.gif" alt="Album" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">Sawari Spark</h2>
-                        <p>Click the button to listen on Spotiwhy app.</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn">Listen</button>
-                        </div>
+                        <h2 className="card-title font-serif">Frontend Development</h2>
+                        <p className=' font-serif'>Click the button to listen on Spotiwhy app.</p>
                     </div>
                 </div>
                 </Card>
@@ -22,11 +19,8 @@ const Services = () => {
                 <div className="card lg:card-side shadow-xl ">
                     <figure><img src="https://i.ibb.co/JCrJw2d/dazzle-man-programmer-writing-code-on-a-laptop-1.gif" alt="Album" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">New album is released!</h2>
-                        <p>Click the button to listen on Spotiwhy app.</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Listen</button>
-                        </div>
+                        <h2 className="card-title font-serif">Fullstack Development</h2>
+                        <p className=' font-serif'>Click the button to listen on Spotiwhy app.</p>
                     </div>
                 </div>
                 </Card>
@@ -34,11 +28,8 @@ const Services = () => {
                 <div className="card lg:card-side shadow-xl ">
                     <figure><img src="https://i.ibb.co/pX4Hh2h/backend.gif" alt="Album" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">New album is released!</h2>
-                        <p>Click the button to listen on Spotiwhy app.</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Listen</button>
-                        </div>
+                        <h2 className="card-title font-serif">Backend Development</h2>
+                        <p className=' font-serif'>Click the button to listen on Spotiwhy app.</p>
                     </div>
                 </div>
                 </Card>
