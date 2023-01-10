@@ -20,7 +20,7 @@ const Home = () => {
                     <a target="_blank" href="https://docs.google.com/document/d/1NmeK2iP6URPDEDUYdyZg3AEA_lUzbRyzD25-noH6Qmw/edit?usp=sharing"><button className="btn font-serif mt-8"> Download Resume</button></a>
                 </div>
                 <div className='mt-6 lg:w-full sm:w-1/2'>
-                    <a><img src='https://gist.githubusercontent.com/shufolislam1/6e7f34f82b8968c2d04248b5234e9a59/raw/1c6a2eb1a9d4aa3e964faba92535e5098b483ed6/home.svg' title='development' /></a>
+                    <a><img src='https://i.ibb.co/KV1xF1m/juicy-man-programmer-writing-code-and-make-web-design-on-a-pc.gif'/></a>
                 </div>
             </div>
         </div>

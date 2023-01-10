@@ -35,8 +35,5 @@ const ScrollToTop = (props) => {
     )
 };
 
-ScrollToTop.propTypes = {
-    children: PropTypes.element.isRequired
-  };
 
 export default ScrollToTop;
