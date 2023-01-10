@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.4",
+    "@nextui-org/react": "^1.0.0-beta.12",
     "daisyui": "^2.46.1",
     "mui-scroll-trigger": "^0.1.1",
     "react": "^18.2.0",

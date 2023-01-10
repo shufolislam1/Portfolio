@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div className='mt-48'>
             <h1 className='text-red-600 font-serif mb-20'>Projects</h1>
-            <OwlCarousel  className='owl-theme' nav margin={10} autoplay autoplayTimeout={1000}  loop>
+            <OwlCarousel  className='owl-theme' nav margin={10} autoplay autoplayTimeout={2000}  loop>
                 <div className='item'>
                     <div className="hero min-h-screen" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
                         <div className="hero-overlay bg-opacity-60"></div>

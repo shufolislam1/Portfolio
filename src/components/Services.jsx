@@ -1,11 +1,13 @@
 import React from 'react';
+import { Card, Grid, Row, Text } from "@nextui-org/react";
 
 const Services = () => {
     return (
-        <div  className='mt-32 bg-sky-600'>
+        <div  className='mt-32'>
             <h1 className='text-red-600 font-serif mb-4'>Services</h1>
-            <div className='grid grid-cols-3 gap-6 my-32'>
-                <div className="card lg:card-side bg-sky-600 hover:bg-sky-700 shadow-xl ">
+            <div className='grid grid-cols-3 gap-6 my-2'>
+                <Card isHoverable isPressable>
+                <div className="card lg:card-side shadow-xl ">
                     <figure><img src="https://placeimg.com/400/400/arch" alt="Album" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">New album is released!</h2>
@@ -15,7 +17,9 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card lg:card-side bg-base-100 shadow-xl">
+                </Card>
+                <Card isHoverable isPressable>
+                <div className="card lg:card-side shadow-xl ">
                     <figure><img src="https://placeimg.com/400/400/arch" alt="Album" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">New album is released!</h2>
@@ -25,7 +29,9 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card lg:card-side bg-base-100 shadow-xl">
+                </Card>
+                <Card isHoverable isPressable>
+                <div className="card lg:card-side shadow-xl ">
                     <figure><img src="https://placeimg.com/400/400/arch" alt="Album" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">New album is released!</h2>
@@ -35,6 +41,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+                </Card>
             </div>
         </div>
     );
