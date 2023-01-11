@@ -16,7 +16,7 @@ const Home = () => {
                             }}
                         />
                     </div>
-                    <p className='font-serif mt-4 text-left sm:text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, blanditiis veniam dignissimos laborum numquam quis, beatae dolore ullam reprehenderit distinctio illo eaque fugiat voluptatem. Illo mollitia doloremque accusamus eos aspernatur!</p>
+                    <p className='font-serif mt-4 text-justify max-w-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, blanditiis veniam dignissimos laborum numquam quis, beatae dolore ullam reprehenderit distinctio illo eaque fugiat voluptatem. Illo mollitia doloremque accusamus eos aspernatur!</p>
                     <a target="_blank" href="https://docs.google.com/document/d/1NmeK2iP6URPDEDUYdyZg3AEA_lUzbRyzD25-noH6Qmw/edit?usp=sharing"><button className="btn font-serif mt-8"> Download Resume</button></a>
                 </div>
                 <div className='mt-6 lg:w-full sm:w-1/2 ml-10'>

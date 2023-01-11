@@ -27,8 +27,8 @@ const Contact = () => {
     return (
         <div id='contact'>
             <h1 className='text-red-600 font-serif my-10'>Contact Me</h1>
-            <div className='grid grid-cols-2 my-36'>
-                <div className='w-3/5'>
+            <div className='grid lg:grid-cols-2 sm:grid-cols-1 my-36'>
+                <div className='lg:w-full sm:justify-items-center'>
                     <form ref={form} onSubmit={sendEmail}>
                         <input type="text" placeholder="Name" name='name' className="input input-bordered w-full max-w-xl" /> <br />
                         <input type="text" placeholder="Email" name='email' className="input input-bordered w-full max-w-xl my-4" /> <br />
@@ -37,7 +37,7 @@ const Contact = () => {
                         <input type="submit" value="Send Message" className="btn btn-wide" />
                     </form>
                 </div>
-                <div>
+                <div className='lg:w-full sm:w-2/3 ml-16'>
                     <img src='https://i.ibb.co/zSvt03M/contact.gif' />
                 </div>
             </div>

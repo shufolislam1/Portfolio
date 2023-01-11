@@ -10,8 +10,8 @@ const Projects = () => {
     return (
         <div className='mt-48' id='projects'>
             <h1 className='text-red-600 font-serif mb-20'>Projects</h1>
-            <OwlCarousel className='owl-theme' nav margin={10} autoplay autoplayTimeout={2000} loop>
-                <div className='item'>
+            <OwlCarousel className='owl-theme grid' nav margin={10} autoplay autoplayTimeout={2000} loop>
+                <div className='item sm:grid-cols-1'>
                     <Card isHoverable isPressable>
                         <div className="hero min-h-screen" style={{ backgroundImage: `url("https://i.ibb.co/TYW8QJQ/sawari-spark-shufol-netlify-app.png")` }}>
                             <div className="hero-overlay bg-opacity-60"></div>

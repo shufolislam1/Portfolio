@@ -5,17 +5,17 @@ const Skills = () => {
         <div  className='mt-32' id='skill'>
             <h1 className='text-red-600 font-serif mb-8'>My Skills</h1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4'>
-                <div className="card lg:w-full md:w-2/3 sm:w-1/2 bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src="https://i.ibb.co/M2sbmgq/react.gif" alt="react" className="rounded-xl" />
                     </figure>
                 </div>
-                <div className="card w-full bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src="https://i.ibb.co/5jM2pnf/nodejs.gif" alt="nodejs" className="rounded-xl" />
                     </figure>
                 </div>
-                <div className="card w-full bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src="https://i.ibb.co/DbFFDT6/javascript.gif" alt="javascript" className="rounded-xl" />
                     </figure>
