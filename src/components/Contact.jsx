@@ -33,7 +33,7 @@ const Contact = () => {
                         <input type="text" placeholder="Name" name='name' className="input input-bordered w-full max-w-xl" /> <br />
                         <input type="text" placeholder="Email" name='email' className="input input-bordered w-full max-w-xl my-4" /> <br />
                         <input type="text" placeholder="Subject" name='subject' className="input input-bordered w-full max-w-xl" /> <br />
-                        <textarea className="textarea w-full max-w-xl my-4" name='message' placeholder="Write your message"></textarea> <br />
+                        <textarea className="textarea textarea-bordered w-full max-w-xl my-4" name='message' placeholder="Write your message"></textarea> <br />
                         <input type="submit" value="Send Message" className="btn btn-wide" />
                     </form>
                 </div>
