@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import ScrollToTop from './components/ScrollToTop'
 import Services from './components/Services'
+import Skills from './components/Skills'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Home></Home>
+      <Skills></Skills>
       <Projects></Projects>
       <Services></Services>
       <About></About>
