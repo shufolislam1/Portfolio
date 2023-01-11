@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
-import ScrollToTop from './components/ScrollToTop'
 import Services from './components/Services'
 import Skills from './components/Skills'
 
@@ -21,7 +20,6 @@ function App() {
       <About></About>
       <Contact></Contact>
       <Footer></Footer>
-      <ScrollToTop></ScrollToTop>
     </div>
   )
 }
