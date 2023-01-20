@@ -6,11 +6,11 @@ const Home = () => {
         <div className='mt-32' id='home'>
             <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4'>
                 <div className='text-left ml-5'>
-                    <h1 className='font-serif'> <span className='text-red-600'> Hi There !</span> I am a</h1>
-                    <div className='mt-2 font-semibold text-2xl'>
+                    <h1 className='font-serif text-5xl'> <span className='text-red-600'> Hi There !</span> I am a</h1>
+                    <div className='mt-2 font-semibold text-4xl'>
                         <Typewriter
                             options={{
-                                strings: ['Frontend Web Developer', 'Passionate learner'],
+                                strings: ['React Developer','Passionate learner','Frontend Developer'],
                                 autoStart: true,
                                 loop: true,
                             }}

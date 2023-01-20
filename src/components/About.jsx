@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className='mt-36 bg-sky-600' id='about'>
-            <h1 className='text-red-600 font-serif mb-4 sm:text-center'>About Me</h1>
+            <h1 className='text-red-600 font-serif mb-4 sm:text-center text-5xl'>About Me</h1>
             <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 ml-5 my-36'>
                 <div>
                     <img src='https://i.ibb.co/nfx1WrF/aboutme.gif' />
