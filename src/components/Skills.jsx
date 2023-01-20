@@ -40,6 +40,11 @@ const Skills = () => {
                         <img src="https://i.ibb.co/znymz1L/css.gif" alt="css3" className="rounded-xl" />
                     </figure>
                 </div>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://img.icons8.com/color/240/null/tailwindcss.png" alt="css3" className="rounded-xl" />
+                    </figure>
+                </div>
             </div>
         </div>
     );
