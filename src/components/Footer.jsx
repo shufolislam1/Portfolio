@@ -2,6 +2,7 @@ import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
     return (
@@ -12,6 +13,7 @@ const Footer = () => {
                         <a target='_blank' href='https://github.com/shufolislam1'><GitHubIcon></GitHubIcon></a>
                         <a target='_blank' href='https://www.linkedin.com/in/shufol-islam-441b0922b/'><LinkedInIcon></LinkedInIcon></a>
                         <a target='_blank' href='https://www.facebook.com/su.mu.39982'><FacebookIcon></FacebookIcon></a>
+                        <a target='_blank' href='https://www.youtube.com/channel/UCvmx7z6_PA3IGkZ7t0vAoqw'><YouTubeIcon></YouTubeIcon></a>
                     </div>
                 </div>
                 <div>
